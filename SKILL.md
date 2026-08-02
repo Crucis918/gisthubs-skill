@@ -4,6 +4,8 @@
 
 GistHubs 从仓库根目录的 `.gisthub/` 文件夹读取内容并渲染成图文 feed。你的任务是：**在用户的仓库里创建/更新 `.gisthub/` 内容 → 推送到 GitHub → 调用一次提交接口**。服务器只在访客浏览时懒加载内容，你不需要上传任何内容到 GistHubs 服务器本身。
 
+> 结构模板仓库（可直接对照/复制）：<https://github.com/Crucis918/gisthub-demo>
+
 ## 第一步：检查 `.gisthub/` 是否存在
 
 在用户仓库根目录检查 `.gisthub/config.yml`。不存在就创建：
